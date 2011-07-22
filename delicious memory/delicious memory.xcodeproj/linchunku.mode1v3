@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,7 +275,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>19</integer>
+									<integer>17</integer>
+									<integer>13</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -325,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>60BFA3A413D964C7002C4359</string>
+										<string>6005B57C13D9756E00324D9B</string>
 										<key>history</key>
 										<array>
 											<string>60DC2FFD13D56FCB0031D181</string>
@@ -337,7 +340,7 @@
 											<string>60DC309E13D5840D0031D181</string>
 											<string>60DC309F13D5840D0031D181</string>
 											<string>60DC30A013D5840D0031D181</string>
-											<string>60C0605113D82ED700B77C44</string>
+											<string>6005B51F13D9721400324D9B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -349,18 +352,16 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 373}}</string>
+								<string>{{0, 0}, {1072, 357}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 122 1280 656 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>373pt</string>
+							<string>357pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -371,14 +372,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 378}, {1072, 237}}</string>
+								<string>{{0, 362}, {1072, 253}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 122 1280 656 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>237pt</string>
+							<string>253pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -397,9 +398,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>60BFA39313D96462002C4359</string>
+				<string>6005B56B13D973B200324D9B</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>60BFA39413D96462002C4359</string>
+				<string>6005B56C13D973B200324D9B</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,8 +538,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>60E856B613BF0749007C7CDF</string>
 		<string>/Users/linchunku/Delicious-Memory/delicious memory/delicious memory.xcodeproj</string>
 	</array>
@@ -620,7 +619,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>60E856B613BF0749007C7CDF</string>
-				<string>60BFA39513D96462002C4359</string>
+				<string>6005B56D13D973B200324D9B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
