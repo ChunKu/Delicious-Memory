@@ -1,0 +1,2 @@
+/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m: In function '-[SecondViewController mapView:viewForAnnotation:]':
+/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m:92: warning: '-RStatus' not found in protocol(s)

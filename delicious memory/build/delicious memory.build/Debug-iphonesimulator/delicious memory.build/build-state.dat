@@ -1,17 +1,20 @@
 Tdelicious memory
 v7
 r0
-t332159811.644487
+t332910647.457128
 cCheck dependencies
 cProcessInfoPlistFile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/Info.plist" delicious_memory-Info.plist
 cCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib"
 cCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib"
 cCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/FirstView.xib"
+cCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib"
 cProcessPCH /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch.gch delicious_memory_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/main.o" "/Users/linchunku/Delicious-Memory/delicious memory/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious_memoryAppDelegate.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/delicious_memoryAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/FirstViewController.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/addNewPlaceFromMap.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/AppAnnotation.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory" normal i386
 cGenerateDSYMFile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM" "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory"
 cTouch "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app"
@@ -66,6 +69,19 @@ c000000004CC12883000000000074D7B0
 t1287727235
 s7657392
 
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.h
+c000000004E254A6500000000000002AA
+t1311066725
+s682
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m
+c000000004E254B17000000000000027C
+t1311066903
+s636
+i"AppAnnotation.h"
+
 N/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.h
 c000000004E1BEF56000000000000022F
 t1310453590
@@ -78,19 +94,43 @@ t1310453590
 s2474
 i"FirstViewController.h"
 
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/Restaurant.xcdatamodel
+c000000004E27DB730000000000000088
+t1311234931
+s136
+
 N/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.h
-c000000004E1C1E380000000000000204
-t1310465592
-s516
+c000000004E253804000000000000022B
+t1311062020
+s555
 i<UIKit/UIKit.h>
 i<CoreLocation/CoreLocation.h>
 i<MapKit/MapKit.h>
 
 N/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m
-c000000004E1C240B0000000000000F5B
-t1310467083
-s3931
+c000000004E254DDE0000000000001593
+t1311067614
+s5523
 i"SecondViewController.h"
+i"addNewPlaceFromMap.h"
+i"AppAnnotation.h"
+
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.h
+c000000004E2536D100000000000000F2
+t1311061713
+s242
+i<UIKit/UIKit.h>
+
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m
+c000000004E253CAB00000000000005B6
+t1311063211
+s1462
+i"addNewPlaceFromMap.h"
+
+N/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib
+c000000004E2537290000000000004AF2
+t1311061801
+s19186
 
 N/Users/linchunku/Delicious-Memory/delicious memory/Classes/delicious_memoryAppDelegate.h
 c000000004E1BFC1900000000000001F1
@@ -110,21 +150,21 @@ t1310453590
 s19169
 
 N/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib
-c000000004E1BF2290000000000008063
-t1310454313
-s32867
+c000000004E253ACA0000000000008CBB
+t1311062730
+s36027
 
 N/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib
-c000000004E1C1B090000000000003E9E
-t1310464777
-s16030
+c000000004E279AE5000000000000465D
+t1311218405
+s18013
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app
-t1310467011
-s272
+t1311217847
+s306
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM
-t1310467011
+t1311217847
 s102
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/FirstView.nib
@@ -136,33 +176,49 @@ t1310453590
 s633
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/MainWindow.nib
-t1310454324
-s2282
+t1311062739
+s2435
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/PkgInfo
 t1310453590
 s8
 
+N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/Restaurant.mom
+t2
+s0
+
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/SecondView.nib
-t1310464830
-s764
+t1311217845
+s1278
+
+N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/addNewPlaceFromMap.nib
+t1311061991
+s1511
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory
-t1310467011
-s30104
+t1311217847
+s41600
+
+N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/AppAnnotation.o
+t1311066904
+s14292
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/FirstViewController.o
 t1310453933
 s54316
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o
-t1310467011
-s51448
+t1311217846
+s58280
+
+N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/addNewPlaceFromMap.o
+t1311063240
+s37660
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious memory.LinkFileList
-c000000004E1BF1E80000000000000296
-t1310454248
-s662
+c000000004E25490100000000000003DD
+t1311066369
+s989
 
 N/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious_memoryAppDelegate.o
 t1310457154
@@ -196,7 +252,20 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies332159811#332159811#0(0"0(0#1#0"8638434720#0"0#
+lSLF07#2@18"Check dependencies332910645#332910645#0(0"0(0#1#0"32088628383449192#0"0#
+
+CCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/AppAnnotation.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332759704.808048
+e332759704.905534
+r1
+xCompileC
+xbuild/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/AppAnnotation.o
+x/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m332759704#332759704#0(0"0(0#0#74"/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m8638459904#2274"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/Classes/AppAnnotation.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/AppAnnotation.o"0#
 
 CCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/FirstViewController.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s332146733.563203
@@ -217,8 +286,8 @@ o/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.
 lSLF07#2@88"Compile /Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146733#332146733#0(786"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m:89: warning: incomplete implementation of class 'FirstViewController'/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m:89: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m:89: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m:89: warning: class 'FirstViewController' does not fully implement the 'UITableViewDataSource' protocol/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m:15: warning: 'pageNames' defined but not used5(22@56"Incomplete implementation of class 'FirstViewController'332146733#0#151#0(6@80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146390#89#0#89#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found332146733#151#162#0(6@80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146390#89#0#89#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found332146733#313#162#0(6@80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146390#89#0#89#0#35"method definition for '*' not found0(22@89"Class 'FirstViewController' does not fully implement the 'UITableViewDataSource' protocol332146733#475#184#0(6@80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146390#89#0#89#0#51"class '*' does not fully implement the '*' protocol0(22@32"'pageNames' defined but not used332146733#659#127#0(6@80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m332146390#15#0#15#0#24"'*' defined but not used0(0#0#80"/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m8604367072#2286"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/Classes/FirstViewController.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/FirstViewController.o"0#
 
 CCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s332159811.410442
-e332159811.582269
+s332910645.927723
+e332910646.937897
 r1
 xCompileC
 xbuild/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o
@@ -227,7 +296,22 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m332159811#332159811#0(0"0(0#0#81"/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m8635512512#2288"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o"0#
+o/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m: In function '-[SecondViewController mapView:viewForAnnotation:]':
+o/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m:92: warning: '-RStatus' not found in protocol(s)
+lSLF07#2@89"Compile /Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m332910645#332910646#0(280"/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m: In function '-[SecondViewController mapView:viewForAnnotation:]':/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m:92: warning: '-RStatus' not found in protocol(s)1(22@35"'-RStatus' not found in protocol(s)332910646#149#131#0(6@81"/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m332760414#92#0#92#0#28"'*' not found in protocol(s)0(0#0#81"/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m8590396608#2288"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/Classes/SecondViewController.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/SecondViewController.o"0#
+
+CCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/addNewPlaceFromMap.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s332756039.864117
+e332756040.055825
+r1
+xCompileC
+xbuild/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/addNewPlaceFromMap.o
+x/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m332756039#332756040#0(0"0(0#0#79"/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m8640760416#2284"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/addNewPlaceFromMap.o"0#
 
 CCompileC "build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious_memoryAppDelegate.o" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/delicious_memoryAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
 s332149954.203887
@@ -255,6 +339,14 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/linchunku/Delicious-Memory/delicious memory/main.m332146733#332146733#0(0"0(0#0#57"/Users/linchunku/Delicious-Memory/delicious memory/main.m8604292544#2248"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -include /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch -c "/Users/linchunku/Delicious-Memory/delicious memory/main.m" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/main.o"0#
 
+CCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib"
+s332754791.271781
+e332754791.694633
+r1
+xCompileXIB
+x/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib
+lSLF07#2@41"CompileXIB Classes/addNewPlaceFromMap.xib332754791#332754791#0(0"0(0#0#81"/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib8631154880#645"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/addNewPlaceFromMap.nib" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/addNewPlaceFromMap.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
 CCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/FirstView.xib"
 s331286342.841461
 e331286343.307125
@@ -266,39 +358,45 @@ oCouldn't open shared capabilities memory GSCapabilities (No such file or direct
 lSLF07#2@24"CompileXIB FirstView.xib331286342#331286343#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#64"/Users/linchunku/Delicious-Memory/delicious memory/FirstView.xib8602043616#619"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/FirstView.nib" "/Users/linchunku/Delicious-Memory/delicious memory/FirstView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib"
-s332147124.273378
-e332147124.706878
+s332755539.334636
+e332755539.799460
 r1
 xCompileXIB
 x/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib332147124#332147124#0(0"0(0#0#65"/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib8613163104#621"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/MainWindow.nib" "/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+lSLF07#2@25"CompileXIB MainWindow.xib332755539#332755539#0(0"0(0#0#65"/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib8607828640#621"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/MainWindow.nib" "/Users/linchunku/Delicious-Memory/delicious memory/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
 
 CCompileXIB "/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib"
-s332157630.047142
-e332157630.414559
+s332910645.474300
+e332910645.926931
 r1
 xCompileXIB
 x/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib332157630#332157630#0(0"0(0#0#65"/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib8635142048#621"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/SecondView.nib" "/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB SecondView.xib332910645#332910645#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#65"/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib30399731280904240#621"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/SecondView.nib" "/Users/linchunku/Delicious-Memory/delicious memory/SecondView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CDataModelCompile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/Restaurant.mom" "/Users/linchunku/Delicious-Memory/delicious memory/Classes/Restaurant.xcdatamodel"
+r0
 
 CGenerateDSYMFile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM" "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory"
-s332159811.618465
-e332159811.640541
+s332910647.355794
+e332910647.436049
 r1
 xGenerateDSYMFile
 x/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM
 x/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory
-lSLF07#2@140"GenerateDSYMFile "build/Debug-iphonesimulator/delicious memory.app.dSYM" "build/Debug-iphonesimulator/delicious memory.app/delicious memory"332159811#332159811#0(0"0(0#0#116"/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory8635559648#452"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM"0#
+lSLF07#2@140"GenerateDSYMFile "build/Debug-iphonesimulator/delicious memory.app.dSYM" "build/Debug-iphonesimulator/delicious memory.app/delicious memory"332910647#332910647#0(0"0(0#0#116"/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory8602172352#452"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory" -o "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app.dSYM"0#
 
 CLd "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory" normal i386
-s332159811.582371
-e332159811.618271
+s332910646.937988
+e332910647.355631
 r1
 xLd
 x/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory
 xnormal
 xi386
-lSLF07#2@121"Link /Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory332159811#332159811#0(0"0(0#0#0"8638737568#1057"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" -filelist "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious memory.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -o "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory"0#
+lSLF07#2@121"Link /Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory332910646#332910647#0(0"0(0#0#0"3420891214866902528#1057"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" -filelist "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/Objects-normal/i386/delicious memory.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -o "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/delicious memory"0#
 
 CProcessInfoPlistFile "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app/Info.plist" delicious_memory-Info.plist
 s331286341.958565
@@ -323,10 +421,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@38"Precompile delicious_memory_Prefix.pch332146732#332146733#0(0"0(0#0#78"/Users/linchunku/Delicious-Memory/delicious memory/delicious_memory_Prefix.pch6877970177294821376#2117"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-generated-files.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-own-target-headers.hmap" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-all-target-headers.hmap" -iquote "/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/delicious memory-project-headers.hmap" "-F/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/include" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources/i386" "-I/Users/linchunku/Delicious-Memory/delicious memory/build/delicious memory.build/Debug-iphonesimulator/delicious memory.build/DerivedSources" -c "/Users/linchunku/Delicious-Memory/delicious memory/delicious_memory_Prefix.pch" -o /var/folders/GK/GKhdT4e9EGaIBC42c9GLak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/delicious_memory_Prefix-ddgxtsjqlsexdramukonbnajdcjd/delicious_memory_Prefix.pch.gch0#
 
 CTouch "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app"
-s332159811.640628
-e332159811.644435
+s332910647.436145
+e332910647.457065
 r1
 xTouch
 x/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app
-lSLF07#2@105"Touch /Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app332159811#332159811#0(0"0(0#0#0"8634227040#315"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app"0#
+lSLF07#2@105"Touch /Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app332910647#332910647#0(0"0(0#0#0"8603042176#315"    cd "/Users/linchunku/Delicious-Memory/delicious memory"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/linchunku/Delicious-Memory/delicious memory/build/Debug-iphonesimulator/delicious memory.app"0#
 

@@ -16,6 +16,9 @@
 		2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2840D7CD1179279E00D7F93C /* FirstView.xib */; };
 		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		60DC2FF213D56E510031D181 /* addNewPlaceFromMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DC2FF013D56E510031D181 /* addNewPlaceFromMap.m */; };
+		60DC2FF313D56E510031D181 /* addNewPlaceFromMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60DC2FF113D56E510031D181 /* addNewPlaceFromMap.xib */; };
+		60DC307513D576DA0031D181 /* AppAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DC307413D576DA0031D181 /* AppAnnotation.m */; };
 		60E221FD13CC288400C8F473 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E221FC13CC288400C8F473 /* SecondViewController.m */; };
 		60E2220513CC289600C8F473 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2220413CC289600C8F473 /* MapKit.framework */; };
 		60E2223813CC2B5900C8F473 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E2223713CC2B5900C8F473 /* CoreLocation.framework */; };
@@ -35,6 +38,11 @@
 		28A0AB4B0D9B1048005BE974 /* delicious_memory_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delicious_memory_Prefix.pch; sourceTree = "<group>"; };
 		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60DC2FEF13D56E510031D181 /* addNewPlaceFromMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addNewPlaceFromMap.h; sourceTree = "<group>"; };
+		60DC2FF013D56E510031D181 /* addNewPlaceFromMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addNewPlaceFromMap.m; sourceTree = "<group>"; };
+		60DC2FF113D56E510031D181 /* addNewPlaceFromMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = addNewPlaceFromMap.xib; path = Classes/addNewPlaceFromMap.xib; sourceTree = "<group>"; };
+		60DC307313D576DA0031D181 /* AppAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppAnnotation.h; sourceTree = "<group>"; };
+		60DC307413D576DA0031D181 /* AppAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppAnnotation.m; sourceTree = "<group>"; };
 		60E221FB13CC288400C8F473 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		60E221FC13CC288400C8F473 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		60E2220413CC289600C8F473 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -62,11 +70,15 @@
 			isa = PBXGroup;
 			children = (
 				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				60DC307313D576DA0031D181 /* AppAnnotation.h */,
+				60DC307413D576DA0031D181 /* AppAnnotation.m */,
 				28216C960DB411BC00E5133A /* FirstViewController.m */,
 				1D3623240D0F684500981E51 /* delicious_memoryAppDelegate.h */,
 				1D3623250D0F684500981E51 /* delicious_memoryAppDelegate.m */,
 				60E221FB13CC288400C8F473 /* SecondViewController.h */,
 				60E221FC13CC288400C8F473 /* SecondViewController.m */,
+				60DC2FEF13D56E510031D181 /* addNewPlaceFromMap.h */,
+				60DC2FF013D56E510031D181 /* addNewPlaceFromMap.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -104,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				2840D7CD1179279E00D7F93C /* FirstView.xib */,
+				60DC2FF113D56E510031D181 /* addNewPlaceFromMap.xib */,
 				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* delicious_memory-Info.plist */,
@@ -175,6 +188,7 @@
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
 				2840D7CE1179279E00D7F93C /* FirstView.xib in Resources */,
+				60DC2FF313D56E510031D181 /* addNewPlaceFromMap.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +203,8 @@
 				1D3623260D0F684500981E51 /* delicious_memoryAppDelegate.m in Sources */,
 				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
 				60E221FD13CC288400C8F473 /* SecondViewController.m in Sources */,
+				60DC2FF213D56E510031D181 /* addNewPlaceFromMap.m in Sources */,
+				60DC307513D576DA0031D181 /* AppAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
