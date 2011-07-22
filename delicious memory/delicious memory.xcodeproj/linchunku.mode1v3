@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -327,7 +325,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>60C0605113D82ED700B77C44</string>
+										<string>60BFA3A413D964C7002C4359</string>
 										<key>history</key>
 										<array>
 											<string>60DC2FFD13D56FCB0031D181</string>
@@ -339,7 +337,7 @@
 											<string>60DC309E13D5840D0031D181</string>
 											<string>60DC309F13D5840D0031D181</string>
 											<string>60DC30A013D5840D0031D181</string>
-											<string>60C0605013D82ED700B77C44</string>
+											<string>60C0605113D82ED700B77C44</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,16 +349,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1072, 381}}</string>
+								<string>{{0, 0}, {1072, 373}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 122 1280 656 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>381pt</string>
+							<string>373pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -371,14 +371,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 386}, {1072, 229}}</string>
+								<string>{{0, 378}, {1072, 237}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 122 1280 656 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>229pt</string>
+							<string>237pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -397,9 +397,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>60C0602813D7F2D500B77C44</string>
+				<string>60BFA39313D96462002C4359</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>60C0602913D7F2D500B77C44</string>
+				<string>60BFA39413D96462002C4359</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -537,6 +537,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>60E856B613BF0749007C7CDF</string>
 		<string>/Users/linchunku/Delicious-Memory/delicious memory/delicious memory.xcodeproj</string>
@@ -619,7 +620,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>60E856B613BF0749007C7CDF</string>
-				<string>60C0602A13D7F2D500B77C44</string>
+				<string>60BFA39513D96462002C4359</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -741,13 +742,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>60C0605213D82ED700B77C44</string>
+				<string>60BFA39613D96462002C4359</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>60C0605313D82ED700B77C44</string>
-				<string>60C0605413D82ED700B77C44</string>
-				<string>60C0605513D82ED700B77C44</string>
-				<string>60C0605613D82ED700B77C44</string>
-				<string>60C0605713D82ED700B77C44</string>
+				<string>60BFA39713D96462002C4359</string>
+				<string>60BFA39813D96462002C4359</string>
+				<string>60BFA39913D96462002C4359</string>
+				<string>60BFA39A13D96462002C4359</string>
+				<string>60BFA39B13D96462002C4359</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -911,7 +912,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>60C0602013D7D28200B77C44</string>
+				<string>60BFA39C13D96462002C4359</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -921,7 +922,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
